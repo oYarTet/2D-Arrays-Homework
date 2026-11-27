@@ -11,7 +11,7 @@ void main(){
 
         if(x>=0 && x<=100){
             mtx[i]=x;
-            if(x>=60)pasd++;
+            if(mtx[i]>=60)pasd++;
             i++;
             continue;
         }

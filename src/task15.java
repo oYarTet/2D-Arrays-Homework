@@ -8,7 +8,7 @@ void main(){
     for(int x : mtx){
         total += x;
     }
-    avg = total / mtx.length;
+    avg = (double) total / mtx.length;
 
     System.out.println("Total:  "+total+"; average:  "+avg);
 }
